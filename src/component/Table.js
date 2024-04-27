@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
-import { makeStyles } from '@mui/styles';
 
 const columns = [
   { field: 'id', headerName: 'ID', width: 170, possition: { sticky: 'true' }},
